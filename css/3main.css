@@ -1,0 +1,370 @@
+* {
+
+	margin: 0px;
+	padding: 0px
+}
+header .vv  {
+
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+}
+
+@media (max-width:575px) {
+	header .vv {
+
+		position: static;
+	}
+
+
+}
+
+
+
+
+header .vv .mus {
+
+	font-size: 2.5rem;
+	font-family: cairo;
+	text-transform: capitalize;
+	font-weight: bold;
+	cursor: pointer;
+	margin-left: 50px;
+	color:black;
+}
+header .vv .mus:hover {
+
+color: black
+
+}
+
+@media (max-width:575px) {
+	header .mus {
+
+		font-size: 2.5rem
+	}
+
+
+}
+
+
+header .lin{
+
+	font-family: sans-serif;
+	text-transform: capitalize;
+	font-weight: bold;
+	cursor: pointer;
+	
+	
+
+}
+
+header .lin2{
+
+	font-family: sans-serif;
+	text-transform: capitalize;
+	font-weight: bold;
+	cursor: pointer;
+	margin-left: 700px
+	
+	
+
+}
+
+@media (max-width:575px) {
+	header .lin2 {
+
+		margin-left: 0px
+	}
+
+
+}
+
+
+
+.small{
+	
+	background-color: white;
+	height: 50px;
+	color: black;
+	transition: 1s all
+}
+.top {
+
+	position: fixed;
+	right: 40px;
+	bottom: 10px;
+	display: none;
+	cursor: pointer;
+	z-index: 100;
+}
+
+.one {
+
+	background-image: url(../images/people-gathering-near-canopy-2513612.jpg);
+	background-size: cover;
+
+
+}
+
+.one .p p {
+
+	padding-top: 300px;
+	padding-bottom: 200px;
+	text-align: center;
+	font-size: 4.5rem;
+	text-transform: capitalize;
+	font-family: tahoma;
+	color: white;
+
+}
+
+@media (max-width:575px) {
+	.one .p p {
+
+		font-size: 3rem
+	}
+
+}
+
+.two img{
+	
+	height: 500px;
+	width: 500px;
+	margin-top: 50px;
+	margin-bottom: 50px
+
+}
+@media  (max-width:590px) {
+	.two img {
+
+		height: 400px;
+		width: 280px;
+		margin-top: 20px
+	}
+
+}
+
+.two h1{
+	
+	margin-top: 150px;
+	margin-bottom: 30px;
+	font-family: cairo;
+	font-weight: bold;
+	text-transform: capitalize
+}
+
+.two p{
+	
+	color: #888;
+	font-family: tahoma;
+	text-transform: capitalize
+
+	
+	
+}.two span{
+	
+	color: #888;
+	font-family: tahoma;
+	text-transform: capitalize
+}
+
+.three img{
+	
+	height: 500px;
+	width: 500px;
+	margin-top: 50px;
+	margin-bottom: 50px
+
+}
+@media  (max-width:590px) {
+	.three img {
+
+		height: 400px;
+		width: 280px;
+		margin-top: 20px
+	}
+
+}
+
+.three h1{
+	
+	margin-top: 150px;
+	margin-bottom: 30px;
+	font-family: cairo;
+	font-weight: bold;
+	text-transform: capitalize
+}
+
+.three p{
+	
+	color: #888;
+	font-family: tahoma;
+	text-transform: capitalize
+
+	
+	
+}
+.three span{
+	
+	color: #888;
+	font-family: tahoma;
+	text-transform: capitalize
+}
+
+.four img{
+	
+	height: 500px;
+	width: 500px;
+	margin-top: 50px;
+	margin-bottom: 50px
+
+}
+@media  (max-width:590px) {
+	.four img {
+
+		height: 400px;
+		width: 280px;
+		margin-top: 20px
+	}
+
+}
+
+.four h1{
+	
+	margin-top: 150px;
+	margin-bottom: 30px;
+	font-family: cairo;
+	font-weight: bold;
+	text-transform: capitalize
+}
+
+..four p{
+	
+	color: #888;
+	font-family: tahoma;
+	text-transform: capitalize
+
+	
+	
+}
+.four span{
+	
+	color: #888;
+	font-family: tahoma;
+	text-transform: capitalize
+}
+
+footer {
+
+	background: #403d38
+}
+
+footer .about h2 {
+
+	font-family: Alegreya Sans;
+	color: white;
+	font-size: 1.5rem;
+	text-transform: capitalize;
+	margin-top: 60px
+}
+
+footer .about p {
+
+	font-family: Alegreya Sans;
+	color: #686868;
+	margin-bottom: 90px;
+	margin-top: 30px;
+	font-size: 1.2rem
+}
+
+footer .why h2 {
+
+	font-family: Alegreya Sans;
+	color: white;
+	font-size: 1.5rem;
+	text-transform: capitalize;
+	margin-top: 60px
+}
+
+footer .why ul {
+
+	list-style: none;
+	font-family: Alegreya Sans;
+	color: #686868;
+	margin-bottom: 90px;
+	margin-top: 25px;
+	line-height: 1.6;
+	font-size: 1.2rem
+}
+
+footer .why ul li {
+
+	border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+	margin-bottom: 6px;
+	padding-bottom: 7px;
+}
+
+
+
+footer .open h2 {
+
+	font-family: Alegreya Sans;
+	color: white;
+	font-size: 1.5rem;
+	text-transform: capitalize;
+	margin-top: 60px
+}
+
+footer .open ul {
+
+	list-style: none;
+	font-family: Alegreya Sans;
+	color: #686868;
+	margin-bottom: 90px;
+	margin-top: 25px;
+	line-height: 1.6;
+	font-size: 1.2rem
+}
+
+footer .open ul li {
+
+	border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+	margin-bottom: 6px;
+	padding-bottom: 7px;
+}
+
+
+footer .contact h2 {
+
+	font-family: Alegreya Sans;
+	color: white;
+	font-size: 1.5rem;
+	text-transform: capitalize;
+	margin-top: 60px
+}
+
+footer .contact ul {
+
+	list-style: none;
+	font-family: Alegreya Sans;
+	color: #686868;
+	margin-bottom: 90px;
+	margin-top: 25px;
+	line-height: 1.6;
+	font-size: 1.2rem;
+
+}
+
+footer .contact ul li {
+
+	border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+	margin-bottom: 6px;
+	padding-bottom: 7px;
+}
+
+
+
+
+
+
